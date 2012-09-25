@@ -4,5 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_login">Login</string>
-
+	<string name="login_name">name</string>
+	<string name="login_passwd">passwd</string>
+	<string name="login_submit">submit</string>
+	<string name="login_reset">reset</string>
 </resources>
