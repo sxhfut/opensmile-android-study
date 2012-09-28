@@ -2,6 +2,7 @@ package org.opensmile.android.czhengtripclasstwo;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -39,6 +40,10 @@ public class Login extends Activity {
 			tip.setVisibility(View.VISIBLE);
 			if("czheng".equals(name) && "123".equals(passwd)){
 				tip.setText("success");
+				Intent intent = new Intent();
+				intent.setClass(Login.this, LoginTip.class);
+				intent.putExtra("name", name);
+				Login.this.startActivity(intent);
 			}else{
 				tip.setText("fail");
 			}

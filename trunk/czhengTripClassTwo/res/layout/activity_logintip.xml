@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg" >
+
+    <TextView
+        android:id="@+id/wellcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="84dp"
+        android:text="Welcom" />
+
+    <TextView
+        android:id="@+id/welname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wellcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+    
+
+</RelativeLayout>
